@@ -3,10 +3,10 @@
  *
  * <example>
     :getProperty.js
-    it('should demonstrate the getCSSProperty command', () => {
+    it('should demonstrate the getProperty command', () => {
         var elem = $('body')
-        var color = elem.getProperty('tagName')
-        console.log(color) // outputs: "BODY"
+        var tag = elem.getProperty('tagName')
+        console.log(tag) // outputs: "BODY"
     })
  * </example>
  *
